@@ -1,0 +1,21 @@
+.imgProducts{
+  max-width: 150px;
+}
+
+.list-group-item{
+  align-items: center;
+}
+
+.quantity{
+  background: #e9e9e9;
+  width: 30px;
+}
+
+@media screen and (max-width: 800px){
+  .imgProducts{
+      max-width: 50px;
+  }
+  .list-group-item span{
+      font-size: 15px !important;
+  }
+}

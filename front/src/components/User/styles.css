@@ -1,0 +1,78 @@
+.formContainer {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 100px;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formContainer h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #2f2f2f;
+}
+.formContainer h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #2f2f2f;
+}
+.formContainer form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.formContainer form .inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ececec;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.formContainer form .inputContainer .left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 80%;
+}
+.formContainer form .inputContainer .left label {
+  font-size: 11px;
+}
+.formContainer form .inputContainer .left input {
+  border: none;
+  font-weight: bold;
+  background-color: inherit;
+  font-size: 13px;
+  color: #2f2f2f;
+}
+.formContainer form button {
+  margin-top: 10px;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+}
+.formContainer form button:hover {
+  background-color: #2f2f2f;
+}
+.formContainer form p {
+  text-align: center;
+  font-size: 12px;
+}
+.formContainer form p b {
+  cursor: pointer;
+  color: #2f2f2f;
+}
+.formContainer form p b:hover {
+  text-decoration: underline;
+}

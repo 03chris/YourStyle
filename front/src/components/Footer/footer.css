@@ -1,0 +1,21 @@
+.footer{
+    background-color: black;
+    padding: 1rem 0;
+    margin-top: auto;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.footer p a:hover{
+    color: rgb(184, 184, 184); 
+}
